@@ -1,34 +1,17 @@
-# protocall-ui-components
+Protocall UI components
+-----------------------
 
 ## Project setup
+
+1. Install depends
+```bash
+npm i
 ```
-npm install
+2. Run storybook of components:
+```bash
+npm run storybook:serve
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# License
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+GNU GPL v3
