@@ -18,8 +18,8 @@
     "vue-property-decorator": "^8.0.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.0.1",
-    "@storybook/addon-links": "^5.0.1",
+    "@storybook/addon-actions": "^5.0.3",
+    "@storybook/addon-links": "^5.0.3",
     "@storybook/vue": "latest",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
@@ -35,7 +35,7 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "typescript": "^3.3.3333",
-    "vue-cli-plugin-storybook": "^0.6.0",
+    "vue-cli-plugin-storybook": "^0.6.1",
     "vue-template-compiler": "^2.6.9"
   },
   "postcss": {
