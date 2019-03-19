@@ -4,37 +4,37 @@
       <x-button>
         Default
       </x-button>
-      <x-button color="primary">
+      <x-button option="primary">
         Primary
       </x-button>
-      <x-button color="success">
+      <x-button option="success">
         Success
       </x-button>
-      <x-button color="info">
+      <x-button option="info">
         Info
       </x-button>
-      <x-button color="warning">
+      <x-button option="warning">
         Warning
       </x-button>
-      <x-button color="danger">
+      <x-button option="danger">
         Danger
       </x-button>
     </div>
     <br>
     <div class="buttons">
-      <x-button color="white">
+      <x-button option="white">
         White
       </x-button>
-      <x-button color="light">
+      <x-button option="light">
         Light
       </x-button>
-      <x-button color="dark">
+      <x-button option="dark">
         Dark
       </x-button>
-      <x-button color="black">
+      <x-button option="black">
         Black
       </x-button>
-      <x-button color="text">
+      <x-button option="text">
         Text
       </x-button>
     </div>

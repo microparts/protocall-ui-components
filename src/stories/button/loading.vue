@@ -4,37 +4,37 @@
       <x-button loading>
         Default
       </x-button>
-      <x-button color="primary" loading>
+      <x-button option="primary" loading>
         Primary
       </x-button>
-      <x-button color="success" loading>
+      <x-button option="success" loading>
         Success
       </x-button>
-      <x-button color="info" loading>
+      <x-button option="info" loading>
         Info
       </x-button>
-      <x-button color="warning" loading>
+      <x-button option="warning" loading>
         Warning
       </x-button>
-      <x-button color="danger" loading>
+      <x-button option="danger" loading>
         Danger
       </x-button>
     </div>
     <br>
     <div class="buttons">
-      <x-button color="white" loading>
+      <x-button option="white" loading>
         White
       </x-button>
-      <x-button color="light" loading>
+      <x-button option="light" loading>
         Light
       </x-button>
-      <x-button color="dark" loading>
+      <x-button option="dark" loading>
         Dark
       </x-button>
-      <x-button color="black" loading>
+      <x-button option="black" loading>
         Black
       </x-button>
-      <x-button color="text" loading>
+      <x-button option="text" loading>
         Text
       </x-button>
     </div>

@@ -23,7 +23,7 @@
     public readonly size!: string;
 
     @Prop({ type: String, default: 'default' })
-    public readonly color!: string; // button modification
+    public readonly option!: string;
 
     @Prop(Boolean)
     public readonly disabled!: boolean;
@@ -40,22 +40,21 @@
       this.classList = {
         button: true,
         'is-loading': this.loading,
-        'is-default': this.color === 'default',
-        'is-primary': this.color === 'primary',
-        'is-success': this.color === 'success',
-        'is-info': this.color === 'info',
-        'is-warning': this.color === 'warning',
-        'is-danger': this.color === 'danger',
-        'is-white': this.color === 'white',
-        'is-light': this.color === 'light',
-        'is-dark': this.color === 'dark',
-        'is-black': this.color === 'black',
-        'is-text': this.color === 'text',
+        'is-default': this.option === 'default',
+        'is-primary': this.option === 'primary',
+        'is-success': this.option === 'success',
+        'is-info': this.option === 'info',
+        'is-warning': this.option === 'warning',
+        'is-danger': this.option === 'danger',
+        'is-white': this.option === 'white',
+        'is-light': this.option === 'light',
+        'is-dark': this.option === 'dark',
+        'is-black': this.option === 'black',
+        'is-text': this.option === 'text',
       };
     }
 
     public onClick(e) {
-      console.log('click');
       this.$emit('click', e);
     }
   }
