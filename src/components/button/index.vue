@@ -1,7 +1,11 @@
 <template>
   <button
     :type="type"
-    :class="classList"
+    :class="{
+      button: true,
+      'is-loading': loading,
+      [`is-${option}`]: true
+    }"
     @click="onClick"
     :disabled="disabled || loading"
     :autofocus="autofocus"
@@ -33,26 +37,6 @@
 
     @Prop(Boolean)
     public readonly autofocus!: boolean;
-
-    private classList: object = {};
-
-    public created() {
-      this.classList = {
-        button: true,
-        'is-loading': this.loading,
-        'is-default': this.option === 'default',
-        'is-primary': this.option === 'primary',
-        'is-success': this.option === 'success',
-        'is-info': this.option === 'info',
-        'is-warning': this.option === 'warning',
-        'is-danger': this.option === 'danger',
-        'is-white': this.option === 'white',
-        'is-light': this.option === 'light',
-        'is-dark': this.option === 'dark',
-        'is-black': this.option === 'black',
-        'is-text': this.option === 'text',
-      };
-    }
 
     public onClick(e) {
       this.$emit('click', e);
