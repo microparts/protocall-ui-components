@@ -19,14 +19,14 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xInfoBadge from '../../components/infoBadge/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xInfoBadge from '../../components/infoBadge/index.vue';
 
-  @Component({
-    components: { xInfoBadge }
-  })
-  export default class InfoBadges extends Vue {
-  }
+@Component({
+  components: { xInfoBadge },
+})
+export default class InfoBadges extends Vue {
+}
 </script>
 
 <style lang="scss" scoped>

@@ -41,7 +41,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
   @Prop(String)
   public readonly icon!: string;
   // inheritAttrs: false,
-  
+
   get listeners() {
     const { input, ...listeners } = this.$listeners;
     return listeners;

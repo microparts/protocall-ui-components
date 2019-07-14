@@ -14,15 +14,15 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xIcon from '../../components/icon/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xIcon from '../../components/icon/index.vue';
 
-  @Component({
-    components: { xIcon }
-  })
-  export default class Icon extends Vue {
+@Component({
+  components: { xIcon },
+})
+export default class Icon extends Vue {
 
-  }
+}
 </script>
 
 <style lang="scss" scoped>

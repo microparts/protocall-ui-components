@@ -32,7 +32,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
   get checkmarkClass() {
     return this.value ? 'x-icon-checkbox-on' : 'x-icon-checkbox-off'
   }
-  
+
   input(event) {
     this.$emit('input', !this.value);
   }

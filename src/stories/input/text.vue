@@ -40,15 +40,15 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xInput from '../../components/input/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xInput from '../../components/input/index.vue';
 
-  @Component({
-    components: { xInput }
-  })
-  export default class InputText extends Vue {
+@Component({
+  components: { xInput },
+})
+export default class InputText extends Vue {
 
-  }
+}
 </script>
 
 <style lang="scss" scoped>

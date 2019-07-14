@@ -15,16 +15,16 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xInputSearch from '../../components/inputSearch/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xInputSearch from '../../components/inputSearch/index.vue';
 
-  @Component({
-    components: { xInputSearch }
-  })
-  export default class InputSearch extends Vue {
-    valueOne = 'How to create component';
-    valueTwo = '';
-  }
+@Component({
+  components: { xInputSearch },
+})
+export default class InputSearch extends Vue {
+  valueOne = 'How to create component';
+  valueTwo = '';
+}
 </script>
 
 <style lang="scss" scoped>

@@ -29,17 +29,17 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xRadio from '../../components/radio/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xRadio from '../../components/radio/index.vue';
 
-  @Component({
-    components: { xRadio }
-  })
-  export default class Checkbox extends Vue {
-    radioValue = 'two';
-    radioValue2 = 'radio button disabled 4';
-    
-  }
+@Component({
+  components: { xRadio },
+})
+export default class Checkbox extends Vue {
+  radioValue = 'two';
+  radioValue2 = 'radio button disabled 4';
+
+}
 </script>
 
 <style lang="scss" scoped>

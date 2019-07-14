@@ -25,17 +25,17 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xTextarea from '../../components/textarea/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xTextarea from '../../components/textarea/index.vue';
 
-  @Component({
-    components: { xTextarea }
-  })
-  export default class Textareas extends Vue {
-    value = 'textarea content';
-    value2 = 'disabled textarea content';
-    
-  }
+@Component({
+  components: { xTextarea },
+})
+export default class Textareas extends Vue {
+  value = 'textarea content';
+  value2 = 'disabled textarea content';
+
+}
 </script>
 
 <style lang="scss" scoped>

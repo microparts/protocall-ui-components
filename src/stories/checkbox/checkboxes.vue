@@ -25,18 +25,18 @@
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xCheckbox from '../../components/checkbox/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xCheckbox from '../../components/checkbox/index.vue';
 
-  @Component({
-    components: { xCheckbox }
-  })
-  export default class Checkbox extends Vue {
-    checkbox1 = false;
-    checkbox2 = true;
-    checkbox3 = false;
-    checkbox4 = true;
-  }
+@Component({
+  components: { xCheckbox },
+})
+export default class Checkbox extends Vue {
+  checkbox1 = false;
+  checkbox2 = true;
+  checkbox3 = false;
+  checkbox4 = true;
+}
 </script>
 
 <style lang="scss" scoped>

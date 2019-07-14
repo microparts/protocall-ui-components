@@ -29,7 +29,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 
   // inheritAttrs: false,
-  
+
   get listeners() {
     const { input, ...listeners } = this.$listeners;
     return listeners;
