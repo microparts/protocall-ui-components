@@ -1,0 +1,56 @@
+.checkbox {
+
+  &__container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    // margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #333333;
+  }
+
+  /* Hide the browser's default checkbox */
+  &__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  &__checkmark {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 0;
+    height: 14px;
+    width: 14px;
+    color: #d4d4d4;
+    // background-color: #eee;
+  }
+
+  &__checkmark.x-icon-checkbox-on {
+    color: #4163fb;
+  }
+
+  /* On mouse-over, add a grey background color */
+  &__container:hover input ~ &__checkmark {
+    color: #4163fb;
+  }
+
+  &__container input:disabled ~ &__checkmark {
+    color: #d4d4d4;
+  }
+}
