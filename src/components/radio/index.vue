@@ -15,7 +15,7 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
-  @Component
+@Component
   export default class xRadio extends Vue {
 
     @Prop(String)
@@ -42,7 +42,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
       this.$emit('input', this.label)
     }
 
-    input(event) {
+    input(event: any) {
       this.$emit('input', !this.value);
     }
 };

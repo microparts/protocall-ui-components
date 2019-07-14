@@ -51,7 +51,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
     return attrs;
   }
 
-  input(event) {
+  input(event: any) {
     this.$emit('input', event.target.value);
   }
 };

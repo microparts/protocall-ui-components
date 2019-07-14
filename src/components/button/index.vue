@@ -15,33 +15,33 @@
 </template>
 
 <script lang="ts">
-  import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-  @Component
-  export default class xButton extends Vue {
+@Component
+export default class xButton extends Vue {
 
-    @Prop({ type: String, default: 'button' })
-    public readonly type!: string;
+  @Prop({ type: String, default: 'button' })
+  public readonly type!: string;
 
-    @Prop({ type: String, default: 'normal' })
-    public readonly size!: string;
+  @Prop({ type: String, default: 'normal' })
+  public readonly size!: string;
 
-    @Prop({ type: String, default: 'default' })
-    public readonly option!: string;
+  @Prop({ type: String, default: 'default' })
+  public readonly option!: string;
 
-    @Prop(Boolean)
-    public readonly disabled!: boolean;
+  @Prop(Boolean)
+  public readonly disabled!: boolean;
 
-    @Prop(Boolean)
-    public readonly loading!: boolean;
+  @Prop(Boolean)
+  public readonly loading!: boolean;
 
-    @Prop(Boolean)
-    public readonly autofocus!: boolean;
+  @Prop(Boolean)
+  public readonly autofocus!: boolean;
 
-    public onClick(e) {
-      this.$emit('click', e);
-    }
+  public onClick(e: any) {
+    this.$emit('click', e);
   }
+}
 </script>
 
 <style lang="sass" scoped>
