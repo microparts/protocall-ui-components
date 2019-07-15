@@ -18,7 +18,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-  export default class xCheckbox extends Vue {
+  export default class XCheckbox extends Vue {
 
   @Prop(String)
   public readonly label!: string;

@@ -16,7 +16,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-  export default class xRadio extends Vue {
+  export default class XRadio extends Vue {
 
     @Prop(String)
     public readonly label!: string;

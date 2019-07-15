@@ -6,7 +6,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-  export default class xIcon extends Vue {
+  export default class XIcon extends Vue {
 
   @Prop(String)
   public readonly name!: string;
