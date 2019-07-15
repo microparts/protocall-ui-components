@@ -25,6 +25,19 @@ const Components = {
   XTooltip,
 };
 
+export { 
+  XBadge,
+  XButton,
+  XCheckbox,
+  XIcon,
+  XInfoBadge,
+  XInput,
+  XInputSearch,
+  XRadio,
+  XTextarea,
+  XTooltip,
+};
+
 Vue.component('split-pane', SplitPane);
 
 // Object.keys(Components).forEach(name => {
