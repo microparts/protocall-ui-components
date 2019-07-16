@@ -7,6 +7,10 @@
       <x-button option="primary">
         Primary
       </x-button>
+      <x-button option="outline">
+        Outline
+      </x-button>
+
       <x-button option="success">
         Success
       </x-button>
@@ -37,20 +41,27 @@
       <x-button option="text">
         Text
       </x-button>
+
+      <x-button option="primary" size="small">
+        Small
+      </x-button>
+      <x-button option="outline" size="small">
+        Outline
+      </x-button>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
-  import xButton from '../../components/button/index.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import xButton from '../../components/button/index.vue';
 
-  @Component({
-    components: { xButton }
-  })
-  export default class Color extends Vue {
+@Component({
+  components: { xButton },
+})
+export default class Color extends Vue {
 
-  }
+}
 </script>
 
 <style lang="sass" scoped>

@@ -1,0 +1,98 @@
+.pagination {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 10px 0;
+  // width: 260px;
+
+  li {
+    list-style: none;
+
+    a {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
+  &__page {
+    width: 30px;
+    display: inline-block;
+    margin: 0 7px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    position: relative;
+
+    &:hover {
+      color: #557cfe;
+    }
+
+    &.active {
+      font-weight: bold;
+    }
+
+    &.active::after {
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 5px);
+      content: ' ';
+      display: block;
+      height: 2px;
+      width: 10px;
+      background-color: #252525;
+    }
+  }
+
+  &__icon {
+    color: #343434;
+    font-size: 10px;
+    display: inline-block;
+    line-height: 28px;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+
+    &:hover {
+      color: #557cfe;
+      border-color: #b4b4b4;
+    }
+  }
+}
+
+.pagination .active a{
+  z-index: 0;
+}
+a:hover {
+  cursor: pointer;
+}
+.active.primary a, .active.primary a:hover{
+  background: #007BFF;
+  border-color: #007BFF;
+}
+.active.success a, .active.success a:hover{
+  background: #28A745;
+  border-color: #28A745;
+}
+.active.danger a, .active.danger a:hover{
+  background: #DC3545;
+  border-color: #DC3545;
+}
+.active.warning a, .active.warning a:hover{
+  background: #FFC107;
+  border-color: #FFC107;
+}
+.active.info a, .active.info a:hover{
+  background: #17A2B8;
+  border-color: #17A2B8;
+}
+.active.dark a, .active.dark a:hover{
+  background: #343A40;
+  border-color: #343A40;
+}

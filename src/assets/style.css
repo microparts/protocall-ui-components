@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?b27q1u');
+  src:  url('fonts/icomoon.eot?b27q1u#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b27q1u') format('truetype'),
+    url('fonts/icomoon.woff?b27q1u') format('woff'),
+    url('fonts/icomoon.svg?b27q1u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="x-icon-"], [class*=" x-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.x-icon-time:before {
+  content: "\e926";
+}
+.x-icon-checkbox-off:before {
+  content: "\e900";
+}
+.x-icon-checkbox-on:before {
+  content: "\e901";
+}
+.x-icon-radio-off:before {
+  content: "\e902";
+}
+.x-icon-radio-on:before {
+  content: "\e903";
+}
+.x-icon-dots:before {
+  content: "\e904";
+}
+.x-icon-add:before {
+  content: "\e905";
+}
+.x-icon-arrow-down:before {
+  content: "\e906";
+}
+.x-icon-arrow-left:before {
+  content: "\e907";
+}
+.x-icon-arrow-right:before {
+  content: "\e908";
+}
+.x-icon-arrow-up:before {
+  content: "\e909";
+}
+.x-icon-check:before {
+  content: "\e90a";
+}
+.x-icon-close:before {
+  content: "\e90b";
+}
+.x-icon-collapse-all:before {
+  content: "\e90c";
+}
+.x-icon-date:before {
+  content: "\e90d";
+}
+.x-icon-download:before {
+  content: "\e90e";
+}
+.x-icon-drag-rows:before {
+  content: "\e90f";
+}
+.x-icon-edit:before {
+  content: "\e910";
+}
+.x-icon-email:before {
+  content: "\e911";
+}
+.x-icon-exit:before {
+  content: "\e912";
+}
+.x-icon-expand-all:before {
+  content: "\e913";
+}
+.x-icon-fill:before {
+  content: "\e914";
+}
+.x-icon-in-archive:before {
+  content: "\e915";
+}
+.x-icon-info:before {
+  content: "\e916";
+}
+.x-icon-move:before {
+  content: "\e917";
+}
+.x-icon-move-vertical:before {
+  content: "\e918";
+}
+.x-icon-phone:before {
+  content: "\e919";
+}
+.x-icon-plus-add:before {
+  content: "\e91a";
+}
+.x-icon-restore:before {
+  content: "\e91b";
+}
+.x-icon-search:before {
+  content: "\e91c";
+}
+.x-icon-shevron-down:before {
+  content: "\e91d";
+}
+.x-icon-shevron-left:before {
+  content: "\e91e";
+}
+.x-icon-shevron-right:before {
+  content: "\e91f";
+}
+.x-icon-shevron-up:before {
+  content: "\e920";
+}
+.x-icon-triangle-down:before {
+  content: "\e921";
+}
+.x-icon-triangle-left:before {
+  content: "\e922";
+}
+.x-icon-triangle-right:before {
+  content: "\e923";
+}
+.x-icon-triangle-up:before {
+  content: "\e924";
+}
+.x-icon-world:before {
+  content: "\e925";
+}
