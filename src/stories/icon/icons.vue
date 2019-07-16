@@ -3,6 +3,8 @@
     <div class="iconss">
       <x-icon name="check" />
 
+      <x-icon name="time" />
+
       <x-icon class="red" name="info" />
 
       <x-icon class="big" name="phone" />

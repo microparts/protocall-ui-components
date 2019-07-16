@@ -10,6 +10,9 @@ import XRadio from '../components/radio/index.vue';
 import SplitPane from '../components/split-pane/index.vue';
 import XTextarea from '../components/textarea/index.vue';
 import XTooltip from '../components/tooltip/index.js';
+import XPagination from '../components/pagination/index.vue';
+import XPopover from '../components/pagination/index.vue';
+import XSelect from '../components/select/index.vue';
 
 const Components = {
   SplitPane,
@@ -23,6 +26,9 @@ const Components = {
   XRadio,
   XTextarea,
   XTooltip,
+  XPagination,
+  XPopover,
+  XSelect,
 };
 
 export { 
@@ -36,6 +42,9 @@ export {
   XRadio,
   XTextarea,
   XTooltip,
+  XPagination,
+  XPopover,
+  XSelect,
 };
 
 Vue.component('split-pane', SplitPane);
